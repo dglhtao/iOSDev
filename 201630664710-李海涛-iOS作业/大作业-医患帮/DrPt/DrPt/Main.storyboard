@@ -10,13 +10,6 @@
         <!--Mail Desc View Controller-->
         <scene sceneID="cSs-Bp-abS">
             <objects>
-                <exit id="ffj-B4-LLi" userLabel="Exit" sceneMemberID="exit"/>
-                <tapGestureRecognizer id="j3j-HA-peK">
-                    <connections>
-                        <action selector="tapImage:" destination="xmk-sZ-atA" id="WRG-Io-dYY"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="D28-Rd-D1h" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="xmk-sZ-atA" customClass="mailDescViewController" customModule="DrPt" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="q1g-rZ-IsL">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
@@ -105,14 +98,19 @@
                         <outlet property="saveButton" destination="rtN-ar-t00" id="MB4-fP-Vxz"/>
                     </connections>
                 </viewController>
+                <exit id="ffj-B4-LLi" userLabel="Exit" sceneMemberID="exit"/>
+                <tapGestureRecognizer id="j3j-HA-peK">
+                    <connections>
+                        <action selector="tapImage:" destination="xmk-sZ-atA" id="WRG-Io-dYY"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D28-Rd-D1h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1017" y="-330"/>
         </scene>
         <!--健康小知识-->
         <scene sceneID="UIs-Td-yiR">
             <objects>
-                <exit id="tE9-PT-aEt" userLabel="Exit" sceneMemberID="exit"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="LEf-fY-yPr" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="4Hg-V2-vRu" customClass="maillistTableViewController" customModule="DrPt" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="BtE-YV-Qmf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
@@ -166,6 +164,8 @@
                         </barButtonItem>
                     </navigationItem>
                 </tableViewController>
+                <exit id="tE9-PT-aEt" userLabel="Exit" sceneMemberID="exit"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LEf-fY-yPr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="84" y="-330"/>
         </scene>
@@ -235,7 +235,7 @@
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Mdg-iE-rng">
                                                 <rect key="frame" x="0.0" y="0.0" width="200" height="34.333333333333336"/>
-                                                <color key="tintColor" systemColor="linkColor" red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="tintColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="200" id="MUu-WW-twe"/>
                                                     <constraint firstAttribute="height" constant="34.329999999999998" id="jci-oZ-02H"/>
@@ -245,7 +245,7 @@
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="HQe-IZ-bxF">
                                                 <rect key="frame" x="0.0" y="79.333333333333314" width="200" height="34"/>
-                                                <color key="tintColor" systemColor="linkColor" red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="tintColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="34" id="UQ0-sY-lg0"/>
                                                     <constraint firstAttribute="width" constant="200" id="lCm-c5-ifa"/>
@@ -255,7 +255,7 @@
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="XrS-TU-U1B">
                                                 <rect key="frame" x="0.0" y="158.33333333333331" width="200" height="34"/>
-                                                <color key="tintColor" systemColor="linkColor" red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="tintColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="200" id="T9z-U8-oEm"/>
                                                     <constraint firstAttribute="height" constant="34" id="af2-0H-eML"/>
@@ -314,16 +314,16 @@
             <objects>
                 <viewController title="News" id="ezR-TZ-8AS" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bdq-Tf-Gjc">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jTs-An-nN4">
-                                <rect key="frame" x="16" y="81" width="343" height="464"/>
+                                <rect key="frame" x="16" y="37" width="343" height="464"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="464" id="Bqu-kf-sE0"/>
                                 </constraints>
-                                <mutableString key="text">2019中国整合医学大会召开
+                                <string key="text">2019中国整合医学大会召开
  
 4月27-28日，由中国医师学会整合医学分会等主办的2019中国整合医学大会在西安召开。本届大会的主题为“贵在整合、难在整合、赢在整合”，与会专家就整合医学的发展方向及实践、医学前沿技术的整合与应用、整合医学在相关临床专科发展与实践等问题进行了讨论。
 
@@ -331,13 +331,13 @@
 
 中国工程院院长李晓红表示，中国工程院长期关注整合医学的发展，2018年，中国工程院与空军军医大学共同成立了中国整合医学发展战略研究院，接下来，希望更多的院士、专家关注和支持整合医学的发展。
 
-大会期间，还颁发了首届“以岭整合医学奖”，奖项颁发给哈尔滨医科大学附属第一医院教授张亭栋，中国科学院院士、上海交通大学瑞金医院陈竺，以表彰其在世界上首先发现并应用三氧化二砷成功治疗急性早幼粒细胞性白血病。</mutableString>
+大会期间，还颁发了首届“以岭整合医学奖”，奖项颁发给哈尔滨医科大学附属第一医院教授张亭栋，中国科学院院士、上海交通大学瑞金医院陈竺，以表彰其在世界上首先发现并应用三氧化二砷成功治疗急性早幼粒细胞性白血病。</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="news1_1" translatesAutoresizingMaskIntoConstraints="NO" id="gTh-1S-RBr">
-                                <rect key="frame" x="16" y="553" width="343" height="225"/>
+                                <rect key="frame" x="16" y="509" width="343" height="225"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="225" id="v1S-eL-Qaa"/>
                                 </constraints>
@@ -357,7 +357,154 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t3R-gl-KQh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3202.4000000000001" y="34.729064039408868"/>
+            <point key="canvasLocation" x="-4002" y="143"/>
+        </scene>
+        <!--erbh-->
+        <scene sceneID="GDe-EH-cZi">
+            <objects>
+                <viewController title="erbh" id="zrv-IW-ZWv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Pao-aF-gFx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qcC-LK-Goi">
+                                <rect key="frame" x="16" y="21" width="343" height="466"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="466" id="Sq5-PV-qzx"/>
+                                </constraints>
+                                <mutableString key="text">常见病例分析编辑
+噪声性耳聋
+
+　　疾病概述
+噪声性耳聋（noise induced deafness）系由于听觉长期遭受噪声影响而发生缓慢的进行性的感音性耳聋，早期表现为听觉疲劳，离开噪声环境后可以逐渐恢复，久之则难以恢复，终致感音神经性聋。噪声除对听觉损伤外，还可引起头痛、头昏、失眠、高血压、心电图改变，也可影响胃的蠕动和分泌。因此，减少或消灭噪声，为当今环境保护工作中一项十分重要的课题。
+噪声性聋常见于高度噪声环境中工作的人员，如舰艇轮机兵，坦克驾驶员，飞机场地勤人员，常戴耳机的电话员及无线工作者、铆工、锻工、纺织工等。
+病因病理
+损伤因素：长期工作于噪声级大于90dB的噪声环境中即可对耳蜗造成损害，耳蜗受损程度受下列因素因素影响。
+（一）时间：在噪声环境里工作的时间越长，听力损害程度越大。
+（二）噪声强度与性质：频率高、强度大对听力损害严重。断续噪声比持续噪声危害大。震动加噪声较单纯噪声的损害大。
+（三）工作环境因素：狭窄的工作场所比开阔的工作环境易受损害，距离噪声源越近，越易受损害。
+（四）身体情况：中老年人比青年人易受噪声损伤，体弱者比强壮者易受损害，曾有感音性聋或中耳炎疾患者较易受损伤，个人体质不同敏感性也不同。
+病理：在长期噪声刺激影响下，耳蜗血管纹首先出现血循环障碍，螺旋器毛细胞损伤，脱落，严重者内毛细胞亦损伤，继之螺旋神经节发生退行性变，以耳蜗基底圈末段及第二圈病变最明显。此处接近鼓室，血管较细，容易受噪声影响。耳蜗基底圈主要接受4000Hz的声音刺激，故早期患者以4,000Hz处听力损失明显。也有人认为与外耳道共振有关，因外耳道的共振频率在3,000~4,000Hz左右。
+临床表现
+主要症状为进行性听力减退及耳鸣。早期听力损失在4,000Hz处，因此，对普通说话声无明显影响，仅在听力计检查中发现，以后听力损害逐渐向高低频发展，终于普遍下降，此时感到听力障碍，严重者可全聋。耳鸣与耳聋可同时发生，亦可单独发生，常为高音性耳鸣，日夜烦扰不宁。
+治疗
+本病主要在预防，首先改善厂房建筑，增加消声及防震措施，改善机器装置及技术操作，使噪声缩减到安全限度内（85～90db ）。在噪声环境中工作者应戴防护器，如防声耳塞，即使外耳道内塞以棉花亦能起到一定的防声作用。每日持续工作时间中要有短暂休息，可以减低噪声对听力损害，应定期对在噪声环境中工作者做听力检查，以便早期发现。早期如有4000Hz听力下降而无自觉症状者，休息数日或数周常可自行恢复，并服用维生素B1，血管扩张剂，高压氧等治疗。如治疗无效可配戴助听器。</mutableString>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="erbhK" translatesAutoresizingMaskIntoConstraints="NO" id="hxd-vb-euX">
+                                <rect key="frame" x="44" y="481" width="286" height="274"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="274" id="tMp-tr-mPo"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.86483765069999996" green="0.94861899999999999" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qcC-LK-Goi" firstAttribute="top" secondItem="5Xf-16-Ee7" secondAttribute="top" constant="21" id="40Z-wF-Vh5"/>
+                            <constraint firstItem="qcC-LK-Goi" firstAttribute="leading" secondItem="5Xf-16-Ee7" secondAttribute="leading" constant="16" id="I8s-KW-fFt"/>
+                            <constraint firstItem="hxd-vb-euX" firstAttribute="top" secondItem="5Xf-16-Ee7" secondAttribute="top" constant="481" id="Mba-Vm-ZNq"/>
+                            <constraint firstItem="5Xf-16-Ee7" firstAttribute="trailing" secondItem="qcC-LK-Goi" secondAttribute="trailing" constant="16" id="ih6-lE-Op1"/>
+                            <constraint firstItem="hxd-vb-euX" firstAttribute="leading" secondItem="5Xf-16-Ee7" secondAttribute="leading" constant="44" id="sjQ-Ur-n0O"/>
+                            <constraint firstItem="5Xf-16-Ee7" firstAttribute="trailing" secondItem="hxd-vb-euX" secondAttribute="trailing" constant="45" id="ztJ-gC-rCQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5Xf-16-Ee7"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="grN-9q-Ajj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3164" y="151.47783251231527"/>
+        </scene>
+        <!--erK-->
+        <scene sceneID="WYL-pl-er6">
+            <objects>
+                <viewController title="erK" id="znF-cF-sN0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Tfh-zf-THy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="erK" translatesAutoresizingMaskIntoConstraints="NO" id="q2z-rl-Wov">
+                                <rect key="frame" x="16" y="31" width="343" height="303"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="303" id="hbM-Kw-d0N"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ag2-Th-3yc">
+                                <rect key="frame" x="16" y="355" width="343" height="317"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="317" id="zQq-60-cAU"/>
+                                </constraints>
+                                <mutableString key="text">儿科是全面研究小儿时期身心发育、保健以及疾病防治的综合医学科学。凡涉及儿童和青少年时期的健康与卫生问题都属于儿科范围。其医治的对象处于生长发育期。 [1] 
+儿科学的任务是不断探索儿科医学理论，在实践的基础降低发病率、死亡率，增强儿童和青少年体质，提高儿童青少年保健和疾病防治水平。 [1] 
+世界各国的儿科范围年龄各有不同，自婴儿期至青少年期为儿科范围。儿童主要以系统划分呼吸、消化、循环、神经、血液、肾脏、内分泌、遗传代谢、免疫及新生儿医学等。此外还有传染病和急救医学等，虽然在分类上与内科相似，但是其研究内容及内在规律与成人差别颇大，不能混淆或替代</mutableString>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.86483765069999996" green="0.94861899999999999" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ag2-Th-3yc" firstAttribute="top" secondItem="q2z-rl-Wov" secondAttribute="bottom" constant="21" id="7kG-yz-TcN"/>
+                            <constraint firstItem="bXJ-uU-GEL" firstAttribute="trailing" secondItem="q2z-rl-Wov" secondAttribute="trailing" constant="16" id="BHp-ct-v8k"/>
+                            <constraint firstItem="q2z-rl-Wov" firstAttribute="top" secondItem="bXJ-uU-GEL" secondAttribute="top" constant="31" id="Qgb-9R-E19"/>
+                            <constraint firstItem="bXJ-uU-GEL" firstAttribute="trailing" secondItem="ag2-Th-3yc" secondAttribute="trailing" constant="16" id="ZN1-hQ-YGM"/>
+                            <constraint firstItem="ag2-Th-3yc" firstAttribute="leading" secondItem="bXJ-uU-GEL" secondAttribute="leading" constant="16" id="bVP-xZ-2P7"/>
+                            <constraint firstItem="q2z-rl-Wov" firstAttribute="leading" secondItem="bXJ-uU-GEL" secondAttribute="leading" constant="16" id="kdF-od-A9S"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bXJ-uU-GEL"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rMt-Eg-53F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2396" y="151.47783251231527"/>
+        </scene>
+        <!--gK-->
+        <scene sceneID="LYQ-f7-qua">
+            <objects>
+                <viewController title="gK" id="yBu-uI-Bmb" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="44h-ti-p5o">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SI0-w7-VAH">
+                                <rect key="frame" x="16" y="29" width="343" height="555"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="555" id="s1v-M5-1DU"/>
+                                </constraints>
+                                <mutableString key="text">骨科是各大医院最常见的科室之一，主要研究骨骼肌肉系统的解剖、生理与病理，运用药物、手术及物理方法保持和发展这一系统的正常形态与功能。随着时代和社会的变更，骨科伤病谱有了明显的变化，例如，骨关节结核、骨髓炎、小儿麻痹症等疾病明显减少，交通事故引起的创伤明显增多。骨科伤病谱的变化，这就需要骨科与时俱进了。
+骨科学
+骨科学又称矫形外科学。是医学的一个专业或学科，专门研究骨骼肌肉系统的解剖、生理与病理，运用药物、手术及物理方法保持和发展这一系统的正常形态与功能，以及治疗这一系统的伤病。骨科学又称矫形外科学。是医学的一个专业或学科，专门研究骨骼肌肉系统的解剖、生理与病理，运用药物、手术及物理方法保持和发展这一系统的正常形态与功能，以及治疗这一系统的伤病。
+随着科学技术的发展和进步，骨科学在诊断、治疗方面有了很大的进展。手外科的建立和发展，使手外伤的诊治技术迅速得到普及和提高；显微外科手术的广泛开展，使多趾游离再造手、神经束的吻合及松解，0.2mm的小动脉间的吻合已不再是神话；采用新的术式治疗脊柱侧凸、颈椎病及颈椎狭窄等疾病都取得了较好的骨科学效果；对关节炎患者采取的各种有效的术式，使得多年卧床的患者从新站立起来；对恶性骨肿瘤的治疗已从单一的截肢发展到综合的治疗，提高了手术的治愈率和存活率；膝关节镜的临床应用，不仅解决了一些疑难关节病的诊断，而且实现了诊断及治疗同步进行；随着材料科学的发展，使得一些复杂的骨折同样也能行内固定治疗；人工关节、人工椎体的功能及性能也更趋完善。总之，骨科学的发展与基础医学，特别是实验医学及材料科学的发展是分不开的。</mutableString>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" image="gK" translatesAutoresizingMaskIntoConstraints="NO" id="fwm-So-zNP">
+                                <rect key="frame" x="228" y="522" width="131" height="185"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="185" id="vdB-3a-oxQ"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.86483765069999996" green="0.94861899999999999" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fwm-So-zNP" firstAttribute="top" secondItem="UXu-V5-SkX" secondAttribute="top" constant="522" id="4be-Aq-aMu"/>
+                            <constraint firstItem="SI0-w7-VAH" firstAttribute="leading" secondItem="UXu-V5-SkX" secondAttribute="leading" constant="16" id="HlD-MP-f1o"/>
+                            <constraint firstItem="fwm-So-zNP" firstAttribute="leading" secondItem="UXu-V5-SkX" secondAttribute="leading" constant="228" id="N8g-FP-eqv"/>
+                            <constraint firstItem="UXu-V5-SkX" firstAttribute="trailing" secondItem="SI0-w7-VAH" secondAttribute="trailing" constant="16" id="PuU-gJ-u1X"/>
+                            <constraint firstItem="UXu-V5-SkX" firstAttribute="trailing" secondItem="fwm-So-zNP" secondAttribute="trailing" constant="16" id="e8m-Ka-czl"/>
+                            <constraint firstItem="SI0-w7-VAH" firstAttribute="top" secondItem="UXu-V5-SkX" secondAttribute="top" constant="29" id="uEA-7z-ls8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="UXu-V5-SkX"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mbj-ww-T2n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1618.4000000000001" y="150"/>
         </scene>
         <!--Firstpage-->
         <scene sceneID="E28-YC-AyC">
@@ -426,104 +573,152 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SXW-Qx-SXK">
                                         <rect key="frame" x="0.0" y="0.0" width="360" height="120"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="ic_ebhk" translatesAutoresizingMaskIntoConstraints="NO" id="IZB-OH-eCW">
+                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" image="ic_ebhk" translatesAutoresizingMaskIntoConstraints="NO" id="IZB-OH-eCW">
                                                 <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                                <gestureRecognizers/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="120" id="GbH-nj-eFH"/>
                                                     <constraint firstAttribute="height" constant="120" id="eBw-Zw-Qbi"/>
                                                 </constraints>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="sQN-DZ-Wwo" appends="YES" id="ewF-EN-8ah"/>
+                                                </connections>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="ic_ek" translatesAutoresizingMaskIntoConstraints="NO" id="aLb-qB-RYm">
+                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" image="ic_ek" translatesAutoresizingMaskIntoConstraints="NO" id="aLb-qB-RYm">
                                                 <rect key="frame" x="120" y="0.0" width="120" height="120"/>
+                                                <gestureRecognizers/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="120" id="dig-9Q-LAw"/>
                                                     <constraint firstAttribute="height" constant="120" id="xTq-Jt-NXU"/>
                                                 </constraints>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="sj6-GY-9GF" appends="YES" id="Nd2-Kt-FsT"/>
+                                                </connections>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="ic_fck" translatesAutoresizingMaskIntoConstraints="NO" id="n2b-cI-RxC">
+                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" image="ic_fck" translatesAutoresizingMaskIntoConstraints="NO" id="n2b-cI-RxC">
                                                 <rect key="frame" x="240" y="0.0" width="120" height="120"/>
+                                                <gestureRecognizers/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="120" id="OTq-FK-kF4"/>
                                                     <constraint firstAttribute="height" constant="120" id="Uh2-jk-hwK"/>
                                                 </constraints>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="YyX-h4-BGh" appends="YES" id="Z84-em-wzQ"/>
+                                                </connections>
                                             </imageView>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iDW-ZC-red">
                                         <rect key="frame" x="0.0" y="120" width="360" height="120"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="ic_gk" translatesAutoresizingMaskIntoConstraints="NO" id="pQu-do-WC9">
+                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" image="ic_gk" translatesAutoresizingMaskIntoConstraints="NO" id="pQu-do-WC9">
                                                 <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                                <gestureRecognizers/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="120" id="1jK-qV-jlV"/>
                                                     <constraint firstAttribute="width" constant="120" id="KEe-EL-kdL"/>
                                                 </constraints>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="1Jk-Pu-BcT" appends="YES" id="R5w-lK-jom"/>
+                                                </connections>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="ic_hxk" translatesAutoresizingMaskIntoConstraints="NO" id="0ng-3h-l0P">
+                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" image="ic_hxk" translatesAutoresizingMaskIntoConstraints="NO" id="0ng-3h-l0P">
                                                 <rect key="frame" x="120" y="0.0" width="120" height="120"/>
+                                                <gestureRecognizers/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="120" id="lx8-nm-cF8"/>
                                                     <constraint firstAttribute="width" constant="120" id="oCo-mL-h1I"/>
                                                 </constraints>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="wQy-4Z-Mkv" appends="YES" id="IHN-h2-6Jf"/>
+                                                </connections>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="ic_kqk" translatesAutoresizingMaskIntoConstraints="NO" id="s8w-nh-Wr5">
+                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" image="ic_kqk" translatesAutoresizingMaskIntoConstraints="NO" id="s8w-nh-Wr5">
                                                 <rect key="frame" x="240" y="0.0" width="120" height="120"/>
+                                                <gestureRecognizers/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="120" id="K3g-Uc-2V4"/>
                                                     <constraint firstAttribute="height" constant="120" id="j9f-Bc-m4M"/>
                                                 </constraints>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="aY0-f0-N2E" appends="YES" id="yNt-eZ-N9R"/>
+                                                </connections>
                                             </imageView>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7s2-Q0-8ms">
                                         <rect key="frame" x="0.0" y="240" width="360" height="120"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="ic_nfmk" translatesAutoresizingMaskIntoConstraints="NO" id="DsI-FX-CWc">
+                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" image="ic_nfmk" translatesAutoresizingMaskIntoConstraints="NO" id="DsI-FX-CWc">
                                                 <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                                <gestureRecognizers/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="120" id="5bZ-qa-oa4"/>
                                                     <constraint firstAttribute="height" constant="120" id="HBi-kn-lir"/>
                                                 </constraints>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="wKD-xr-UcX" appends="YES" id="Cwj-bl-M1g"/>
+                                                </connections>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="ic_nk" translatesAutoresizingMaskIntoConstraints="NO" id="SF2-1i-qbF">
+                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" image="ic_nk" translatesAutoresizingMaskIntoConstraints="NO" id="SF2-1i-qbF">
                                                 <rect key="frame" x="120" y="0.0" width="120" height="120"/>
+                                                <gestureRecognizers/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="120" id="VDo-Jj-eJO"/>
                                                     <constraint firstAttribute="height" constant="120" id="p5T-PH-czf"/>
                                                 </constraints>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="YpT-LN-wZj" appends="YES" id="A5r-YZ-qQp"/>
+                                                </connections>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="ic_sjnk" translatesAutoresizingMaskIntoConstraints="NO" id="Y5Y-Rt-KFM">
+                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" image="ic_sjnk" translatesAutoresizingMaskIntoConstraints="NO" id="Y5Y-Rt-KFM">
                                                 <rect key="frame" x="240" y="0.0" width="120" height="120"/>
+                                                <gestureRecognizers/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="120" id="0RI-sd-9V1"/>
                                                     <constraint firstAttribute="width" constant="120" id="RJg-W4-jb2"/>
                                                 </constraints>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="CPU-Vh-Ctp" appends="YES" id="v1c-u2-Gu8"/>
+                                                </connections>
                                             </imageView>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o2z-63-Gek">
                                         <rect key="frame" x="0.0" y="360" width="360" height="120"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="ic_sjwk" translatesAutoresizingMaskIntoConstraints="NO" id="03p-tY-t6i">
+                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" image="ic_sjwk" translatesAutoresizingMaskIntoConstraints="NO" id="03p-tY-t6i">
                                                 <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                                <gestureRecognizers/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="120" id="pN2-qa-3zg"/>
                                                     <constraint firstAttribute="width" constant="120" id="rIw-aq-IHe"/>
                                                 </constraints>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="xo9-1B-UEv" appends="YES" id="LBT-JF-6O2"/>
+                                                </connections>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="ic_xzk" translatesAutoresizingMaskIntoConstraints="NO" id="ZaG-e6-51H">
+                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" image="ic_xzk" translatesAutoresizingMaskIntoConstraints="NO" id="ZaG-e6-51H">
                                                 <rect key="frame" x="120" y="0.0" width="120" height="120"/>
+                                                <gestureRecognizers/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="120" id="9zM-ab-M64"/>
                                                     <constraint firstAttribute="height" constant="120" id="MiY-JI-Qjn"/>
                                                 </constraints>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="3bP-xN-t7I" appends="YES" id="1Dh-Lv-pZt"/>
+                                                </connections>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="ic_yk" translatesAutoresizingMaskIntoConstraints="NO" id="xd9-3w-Ke4">
+                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" image="ic_yk" translatesAutoresizingMaskIntoConstraints="NO" id="xd9-3w-Ke4">
                                                 <rect key="frame" x="240" y="0.0" width="120" height="120"/>
+                                                <gestureRecognizers/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="120" id="3hR-Tt-jdW"/>
                                                     <constraint firstAttribute="height" constant="120" id="8kq-mE-uXz"/>
                                                 </constraints>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="vzg-eh-a5Z" appends="YES" id="FLf-n3-AoZ"/>
+                                                </connections>
                                             </imageView>
                                         </subviews>
                                     </stackView>
@@ -538,9 +733,13 @@
                                     <accessibilityTraits key="traits" button="YES"/>
                                     <bool key="isElement" value="YES"/>
                                 </accessibility>
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="166" id="jKU-DM-UPI"/>
                                 </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Cdo-5B-VgQ" appends="YES" id="6Tr-F8-FfU"/>
+                                </connections>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.86483765069999996" green="0.94861899999999999" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -558,6 +757,71 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5aU-6z-2wg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Cdo-5B-VgQ">
+                    <connections>
+                        <segue destination="ezR-TZ-8AS" kind="modal" id="hyR-PW-oiG"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="sQN-DZ-Wwo">
+                    <connections>
+                        <segue destination="zrv-IW-ZWv" kind="modal" id="6OV-To-f4a"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="sj6-GY-9GF">
+                    <connections>
+                        <segue destination="znF-cF-sN0" kind="modal" id="HP8-yi-fh1"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="YyX-h4-BGh">
+                    <connections>
+                        <segue destination="yBu-uI-Bmb" kind="modal" id="EB1-Br-3Dv"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="1Jk-Pu-BcT">
+                    <connections>
+                        <segue destination="yBu-uI-Bmb" kind="modal" id="6Lq-Qt-fZp"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="wQy-4Z-Mkv">
+                    <connections>
+                        <segue destination="znF-cF-sN0" kind="modal" id="q8P-lD-b21"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="aY0-f0-N2E">
+                    <connections>
+                        <segue destination="zrv-IW-ZWv" kind="modal" id="1bQ-m4-YYH"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="wKD-xr-UcX">
+                    <connections>
+                        <segue destination="zrv-IW-ZWv" kind="modal" id="mku-2O-KTU"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="YpT-LN-wZj">
+                    <connections>
+                        <segue destination="znF-cF-sN0" kind="modal" id="kfy-Nm-G4F"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="CPU-Vh-Ctp">
+                    <connections>
+                        <segue destination="yBu-uI-Bmb" kind="modal" id="nsL-x0-Tp7"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="xo9-1B-UEv">
+                    <connections>
+                        <segue destination="yBu-uI-Bmb" kind="modal" id="gMQ-4R-W7c"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="3bP-xN-t7I">
+                    <connections>
+                        <segue destination="znF-cF-sN0" kind="modal" id="gXz-OF-862"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="vzg-eh-a5Z">
+                    <connections>
+                        <segue destination="zrv-IW-ZWv" kind="modal" id="Ug4-Kq-6ua"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-2455.1999999999998" y="-590.39408866995075"/>
         </scene>
@@ -598,11 +862,11 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lig-zR-GlV">
                                 <rect key="frame" x="17" y="175" width="340" height="422"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <color key="tintColor" systemColor="systemBlueColor" red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="422" id="S66-cL-Zev"/>
                                 </constraints>
-                                <mutableString key="text">李医生 2019-11-20 11:32:33 
+                                <string key="text">李医生 2019-11-20 11:32:33 
   您好，请问有什么可以帮到您？
 王患者 2019-11-20 11:32:56
   我有点感冒
@@ -619,7 +883,7 @@
 王患者 2019-11-20 11:37:20
   谢谢医生
 李医生 2019-11-20 11:37:33
-  不客气😊</mutableString>
+  不客气😊</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -660,7 +924,6 @@
         <!--Navigation Controller-->
         <scene sceneID="3n2-81-UXp">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Vhp-eq-KJY" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0v7-kY-0T7" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="3VX-bm-gAU">
@@ -672,6 +935,7 @@
                         <segue destination="4Hg-V2-vRu" kind="relationship" relationship="rootViewController" id="yND-MM-ZuP"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vhp-eq-KJY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-855" y="-330"/>
         </scene>
@@ -714,7 +978,7 @@
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Vxu-Hx-xpE">
                                                 <rect key="frame" x="0.0" y="0.0" width="200" height="34.333333333333336"/>
-                                                <color key="tintColor" systemColor="linkColor" red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="tintColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="34.329999999999998" id="B0j-IM-6mw"/>
                                                     <constraint firstAttribute="width" constant="200" id="evr-jR-W9v"/>
@@ -724,7 +988,7 @@
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="SDd-To-W6x">
                                                 <rect key="frame" x="0.0" y="79.333333333333314" width="200" height="34"/>
-                                                <color key="tintColor" systemColor="linkColor" red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="tintColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="34" id="dpp-Su-FQG"/>
                                                     <constraint firstAttribute="width" constant="200" id="sES-kH-PcP"/>
@@ -863,7 +1127,7 @@
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="YsX-fW-2Nq">
                                                 <rect key="frame" x="0.0" y="0.0" width="200" height="34.333333333333336"/>
-                                                <color key="tintColor" systemColor="linkColor" red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="tintColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="200" id="C19-f4-IhZ"/>
                                                     <constraint firstAttribute="height" constant="34.329999999999998" id="RLG-qm-Gkn"/>
@@ -873,7 +1137,7 @@
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Em8-Ll-XqX">
                                                 <rect key="frame" x="0.0" y="79.333333333333343" width="200" height="34"/>
-                                                <color key="tintColor" systemColor="linkColor" red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="tintColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="34" id="cBG-VL-wzR"/>
                                                     <constraint firstAttribute="width" constant="200" id="hKU-bS-bpP"/>
@@ -883,7 +1147,7 @@
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="aDR-Wk-s4U">
                                                 <rect key="frame" x="0.0" y="158.33333333333331" width="200" height="34"/>
-                                                <color key="tintColor" systemColor="linkColor" red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="tintColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="200" id="JHO-xc-fwx"/>
                                                     <constraint firstAttribute="height" constant="34" id="Tcv-0s-ujJ"/>
@@ -955,6 +1219,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="erK" width="534" height="400"/>
+        <image name="erbhK" width="640" height="533"/>
+        <image name="gK" width="400" height="566"/>
         <image name="ic_ebhk" width="144" height="144"/>
         <image name="ic_ek" width="144" height="144"/>
         <image name="ic_fck" width="144" height="144"/>
@@ -973,6 +1240,9 @@
     <inferredMetricsTieBreakers>
         <segue reference="ydI-j5-Nl6"/>
         <segue reference="t4h-mn-ZSE"/>
+        <segue reference="nsL-x0-Tp7"/>
+        <segue reference="HP8-yi-fh1"/>
+        <segue reference="1bQ-m4-YYH"/>
         <segue reference="9Fr-bp-oju"/>
     </inferredMetricsTieBreakers>
 </document>
