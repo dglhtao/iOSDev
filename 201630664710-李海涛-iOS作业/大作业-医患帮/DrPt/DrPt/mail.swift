@@ -2,7 +2,7 @@
 //  mail.swift
 ///  TableView
 //
-//  Created by 李海涛 on 2018/11/6.
+//  Created by 李海涛 on 2019/11/6.
 //  Copyright © 2019年 李海涛. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 import os.log
 //此为swift文件，非cocotouchfile
 import UIKit
-
+	
 //NSCoding用于持久化数据，是一种协议protocol
 class mail: NSObject, NSCoding {
     

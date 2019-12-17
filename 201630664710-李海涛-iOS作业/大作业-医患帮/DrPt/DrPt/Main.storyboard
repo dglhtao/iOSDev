@@ -373,7 +373,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="466" id="Sq5-PV-qzx"/>
                                 </constraints>
-                                <mutableString key="text">常见病例分析编辑
+                                <string key="text">常见病例分析编辑
 噪声性耳聋
 
 　　疾病概述
@@ -389,7 +389,7 @@
 临床表现
 主要症状为进行性听力减退及耳鸣。早期听力损失在4,000Hz处，因此，对普通说话声无明显影响，仅在听力计检查中发现，以后听力损害逐渐向高低频发展，终于普遍下降，此时感到听力障碍，严重者可全聋。耳鸣与耳聋可同时发生，亦可单独发生，常为高音性耳鸣，日夜烦扰不宁。
 治疗
-本病主要在预防，首先改善厂房建筑，增加消声及防震措施，改善机器装置及技术操作，使噪声缩减到安全限度内（85～90db ）。在噪声环境中工作者应戴防护器，如防声耳塞，即使外耳道内塞以棉花亦能起到一定的防声作用。每日持续工作时间中要有短暂休息，可以减低噪声对听力损害，应定期对在噪声环境中工作者做听力检查，以便早期发现。早期如有4000Hz听力下降而无自觉症状者，休息数日或数周常可自行恢复，并服用维生素B1，血管扩张剂，高压氧等治疗。如治疗无效可配戴助听器。</mutableString>
+本病主要在预防，首先改善厂房建筑，增加消声及防震措施，改善机器装置及技术操作，使噪声缩减到安全限度内（85～90db ）。在噪声环境中工作者应戴防护器，如防声耳塞，即使外耳道内塞以棉花亦能起到一定的防声作用。每日持续工作时间中要有短暂休息，可以减低噪声对听力损害，应定期对在噪声环境中工作者做听力检查，以便早期发现。早期如有4000Hz听力下降而无自觉症状者，休息数日或数周常可自行恢复，并服用维生素B1，血管扩张剂，高压氧等治疗。如治疗无效可配戴助听器。</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -437,9 +437,9 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="317" id="zQq-60-cAU"/>
                                 </constraints>
-                                <mutableString key="text">儿科是全面研究小儿时期身心发育、保健以及疾病防治的综合医学科学。凡涉及儿童和青少年时期的健康与卫生问题都属于儿科范围。其医治的对象处于生长发育期。 [1] 
+                                <string key="text">儿科是全面研究小儿时期身心发育、保健以及疾病防治的综合医学科学。凡涉及儿童和青少年时期的健康与卫生问题都属于儿科范围。其医治的对象处于生长发育期。 [1] 
 儿科学的任务是不断探索儿科医学理论，在实践的基础降低发病率、死亡率，增强儿童和青少年体质，提高儿童青少年保健和疾病防治水平。 [1] 
-世界各国的儿科范围年龄各有不同，自婴儿期至青少年期为儿科范围。儿童主要以系统划分呼吸、消化、循环、神经、血液、肾脏、内分泌、遗传代谢、免疫及新生儿医学等。此外还有传染病和急救医学等，虽然在分类上与内科相似，但是其研究内容及内在规律与成人差别颇大，不能混淆或替代</mutableString>
+世界各国的儿科范围年龄各有不同，自婴儿期至青少年期为儿科范围。儿童主要以系统划分呼吸、消化、循环、神经、血液、肾脏、内分泌、遗传代谢、免疫及新生儿医学等。此外还有传染病和急救医学等，虽然在分类上与内科相似，但是其研究内容及内在规律与成人差别颇大，不能混淆或替代</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -475,10 +475,10 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="555" id="s1v-M5-1DU"/>
                                 </constraints>
-                                <mutableString key="text">骨科是各大医院最常见的科室之一，主要研究骨骼肌肉系统的解剖、生理与病理，运用药物、手术及物理方法保持和发展这一系统的正常形态与功能。随着时代和社会的变更，骨科伤病谱有了明显的变化，例如，骨关节结核、骨髓炎、小儿麻痹症等疾病明显减少，交通事故引起的创伤明显增多。骨科伤病谱的变化，这就需要骨科与时俱进了。
+                                <string key="text">骨科是各大医院最常见的科室之一，主要研究骨骼肌肉系统的解剖、生理与病理，运用药物、手术及物理方法保持和发展这一系统的正常形态与功能。随着时代和社会的变更，骨科伤病谱有了明显的变化，例如，骨关节结核、骨髓炎、小儿麻痹症等疾病明显减少，交通事故引起的创伤明显增多。骨科伤病谱的变化，这就需要骨科与时俱进了。
 骨科学
 骨科学又称矫形外科学。是医学的一个专业或学科，专门研究骨骼肌肉系统的解剖、生理与病理，运用药物、手术及物理方法保持和发展这一系统的正常形态与功能，以及治疗这一系统的伤病。骨科学又称矫形外科学。是医学的一个专业或学科，专门研究骨骼肌肉系统的解剖、生理与病理，运用药物、手术及物理方法保持和发展这一系统的正常形态与功能，以及治疗这一系统的伤病。
-随着科学技术的发展和进步，骨科学在诊断、治疗方面有了很大的进展。手外科的建立和发展，使手外伤的诊治技术迅速得到普及和提高；显微外科手术的广泛开展，使多趾游离再造手、神经束的吻合及松解，0.2mm的小动脉间的吻合已不再是神话；采用新的术式治疗脊柱侧凸、颈椎病及颈椎狭窄等疾病都取得了较好的骨科学效果；对关节炎患者采取的各种有效的术式，使得多年卧床的患者从新站立起来；对恶性骨肿瘤的治疗已从单一的截肢发展到综合的治疗，提高了手术的治愈率和存活率；膝关节镜的临床应用，不仅解决了一些疑难关节病的诊断，而且实现了诊断及治疗同步进行；随着材料科学的发展，使得一些复杂的骨折同样也能行内固定治疗；人工关节、人工椎体的功能及性能也更趋完善。总之，骨科学的发展与基础医学，特别是实验医学及材料科学的发展是分不开的。</mutableString>
+随着科学技术的发展和进步，骨科学在诊断、治疗方面有了很大的进展。手外科的建立和发展，使手外伤的诊治技术迅速得到普及和提高；显微外科手术的广泛开展，使多趾游离再造手、神经束的吻合及松解，0.2mm的小动脉间的吻合已不再是神话；采用新的术式治疗脊柱侧凸、颈椎病及颈椎狭窄等疾病都取得了较好的骨科学效果；对关节炎患者采取的各种有效的术式，使得多年卧床的患者从新站立起来；对恶性骨肿瘤的治疗已从单一的截肢发展到综合的治疗，提高了手术的治愈率和存活率；膝关节镜的临床应用，不仅解决了一些疑难关节病的诊断，而且实现了诊断及治疗同步进行；随着材料科学的发展，使得一些复杂的骨折同样也能行内固定治疗；人工关节、人工椎体的功能及性能也更趋完善。总之，骨科学的发展与基础医学，特别是实验医学及材料科学的发展是分不开的。</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -828,16 +828,16 @@
         <!--SeeDr.-->
         <scene sceneID="aI3-Li-FDM">
             <objects>
-                <viewController title="SeeDr." id="4ZE-qR-MoG" sceneMemberID="viewController">
+                <viewController title="SeeDr." id="4ZE-qR-MoG" customClass="SeeDrController" customModule="DrPt" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="16P-8z-fgc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8FT-Ya-VNk">
-                                <rect key="frame" x="98" y="54" width="176" height="113"/>
+                                <rect key="frame" x="98" y="54" width="250" height="113"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="113" id="tdP-So-ZdF"/>
-                                    <constraint firstAttribute="width" constant="176" id="yUC-om-dj1"/>
+                                    <constraint firstAttribute="width" constant="250" id="yUC-om-dj1"/>
                                 </constraints>
                             </pickerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="选择患者：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4vt-8O-XDP">
@@ -916,6 +916,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="qVO-2f-bSZ"/>
                     </view>
+                    <connections>
+                        <outlet property="pickerView" destination="8FT-Ya-VNk" id="vec-EV-p6U"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="11d-3d-11c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1238,7 +1241,6 @@
         <image name="news1_1" width="1268" height="845"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ydI-j5-Nl6"/>
         <segue reference="t4h-mn-ZSE"/>
         <segue reference="nsL-x0-Tp7"/>
         <segue reference="HP8-yi-fh1"/>

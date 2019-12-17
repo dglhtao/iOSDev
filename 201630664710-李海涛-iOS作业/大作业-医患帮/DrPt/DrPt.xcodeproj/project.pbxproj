@@ -17,6 +17,7 @@
 		DE2904C2239F0B8F00465543 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE2904C1239F0B8F00465543 /* Info.plist */; };
 		DE2904C4239F24CB00465543 /* Launcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2904C3239F24CB00465543 /* Launcher.swift */; };
 		DE2904C6239F28DC00465543 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2904C5239F28DC00465543 /* SceneDelegate.swift */; };
+		DE2D9DE023A4CB48008411AF /* SeeDrController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2D9DDF23A4CB48008411AF /* SeeDrController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		DE2904C1239F0B8F00465543 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE2904C3239F24CB00465543 /* Launcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launcher.swift; sourceTree = "<group>"; };
 		DE2904C5239F28DC00465543 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DE2D9DDF23A4CB48008411AF /* SeeDrController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeDrController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				DE2904C3239F24CB00465543 /* Launcher.swift */,
+				DE2D9DDF23A4CB48008411AF /* SeeDrController.swift */,
 				DE290410239EF70800465543 /* AppDelegate.swift */,
 				DE29040A239EF70800465543 /* mail.swift */,
 				DE290411239EF70900465543 /* mailDescViewController.swift */,
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE29041A239EF70900465543 /* AppDelegate.swift in Sources */,
+				DE2D9DE023A4CB48008411AF /* SeeDrController.swift in Sources */,
 				DE2904C6239F28DC00465543 /* SceneDelegate.swift in Sources */,
 				DE2904C4239F24CB00465543 /* Launcher.swift in Sources */,
 				DE290414239EF70900465543 /* mail.swift in Sources */,
